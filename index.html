@@ -9,6 +9,7 @@
   <link rel="icon" href="./mongodb-logo-24.png">
   <!--==================== UNICONS ====================-->
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!--==================== CSS ====================-->
   <link rel="stylesheet" href="./Packages/css/styles.css" />
@@ -67,27 +68,27 @@
       <div class="home__container container grid">
         <div class="home__content grid">
           <aside class="home__social">
-            <p class="vertical-text">Join me on social media</p>
-            <a href="https://www.linkedin.com/in/dhilip-raj-127974265/" target="_blank" class="home__social-icon">
-              <i class="uil uil-linkedin-alt"></i>
+            <p class="vertical-text" data-aos="fade-down" data-aos-delay="500" data-aos-duration="2000">Join me on social media</p>
+            <a  data-aos="fade-down" data-aos-delay="500" data-aos-duration="2000" href="https://www.linkedin.com/in/dhilip-raj-127974265/" target="_blank" class="home__social-icon">
+              <i  class="uil uil-linkedin-alt"></i>
             </a>
 
-            <a href="https://github.com/Dhiliprajk" target="_blank" class="home__social-icon">
+            <a  data-aos="fade-down" data-aos-delay="500" data-aos-duration="2000" href="https://github.com/Dhiliprajk" target="_blank" class="home__social-icon">
               <i class="uil uil-github-alt"></i>
             </a>
           </aside>
 
 
 
-          <div class="home__img">
+          <div class="home__img" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="2000">
             <img src="./Packages/images/young-man-with-cool-emoticon_1404639.jpg" alt="My-photo"
               class="home__Profile-pic" />
           </div>
 
           <div class="home__data">
-            <h1 class="home__title">Hi, I'am Dhilip Raj K</h1>
-            <h3 class="home__subtitle">Undergraduate Student</h3>
-            <p class="home__description">
+            <h1 class="home__title"  data-aos="fade-down" data-aos-delay="500" data-aos-duration="2000">Hi, I'am Dhilip Raj K</h1>
+            <h3 class="home__subtitle"  data-aos="fade-down" data-aos-delay="500" data-aos-duration="2000">Undergraduate Student</h3>
+            <p class="home__description"  data-aos="fade-down" data-aos-delay="500" data-aos-duration="2000">
               Studying BSc Computer Science at Ramakrishna Mission Vivekananda College.
             </p>
           </div>
@@ -105,10 +106,10 @@
 
     <!--==================== ABOUT ====================-->
     <section class="about section" id="about">
-      <h2 class="section__title">About Me</h2>
-      <span class="section__subtitle">My Introduction</span>
+      <h2 class="section__title" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="2000">About Me</h2>
+      <span class="section__subtitle" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="2000">My Introduction</span>
 
-      <div class="about__container container grid">
+      <div class="about__container container grid" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="2000">
         <img src="./Packages/images/cover1.png" alt="Coding" class="about__img"
           style="background: transparent !important; " />
         <div class="about__data">
@@ -143,10 +144,10 @@
 
       <!--==================== QUALIFICATION ====================-->
       <section class="qualifications section" id="qualification">
-        <h2 class="section__title">Qualification</h2>
-        <span class="section__subtitle">My personal journey</span>
+        <h2 class="section__title" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="2000">Qualification</h2>
+        <span class="section__subtitle" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="2000">My personal journey</span>
 
-        <div class="qualification__container container">
+        <div class="qualification__container container" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
           <div class="qualification__tabs">
             <div class="qualification__button button--flex qualification__active" data-target="#education">
               <i class="uil uil-graduation-cap qualification__icon"></i>
@@ -282,7 +283,7 @@
       </section>
 
       <!--==================== SKILLS ====================-->
-      <section class="skills section" id="skills">
+      <section class="skills section" id="skills"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
         <h2 class="section__title">Skills</h2>
         <span class="section__subtitle">My technical level</span>
 
@@ -345,7 +346,7 @@
     </section>
 
     <!--==================== Projects ====================-->
-    <section class="projects section" id="projects">
+    <section class="projects section" id="projects"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
       <h2 class="section__title">Projects</h2>
       <span class="section__subtitle">My Personal Works</span>
 
@@ -404,7 +405,7 @@
     </section>
 
     <!--==================== BLOGS ====================-->
-    <section class="blog section container">
+    <section class="blog section container" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
       <div class="blog__bg">
         <h2 class="section__title-center blog__title">My Favorite Articles In Medium</h2>
         <div class="blog__container grid">
@@ -450,7 +451,7 @@
     </section>
 
     <!--==================== CONTACT ME ====================-->
-    <section class="contact section" id="contact">
+    <section class="contact section" id="contact" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
       <h2 class="section__title">Contact me</h2>
 
 
@@ -515,7 +516,7 @@
   </main>
 
   <!--==================== FOOTER ====================-->
-  <footer class="footer">
+  <footer class="footer" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
     <div class="footer__bg">
       <div class="footer__container container grid">
         <div>
@@ -561,7 +562,10 @@
     <span class="loader"></span>
   </div>
   <!--==================== MAIN JS ====================-->
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
